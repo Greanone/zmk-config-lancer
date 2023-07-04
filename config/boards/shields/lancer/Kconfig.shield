@@ -1,6 +1,2 @@
 config SHIELD_LANCER
     def_bool $(shields_list_contains,lancer)
-    
-    # Turn on deep sleep
-CONFIG_ZMK_SLEEP=y
-CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=300000
