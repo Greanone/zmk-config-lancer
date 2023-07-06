@@ -64,7 +64,7 @@
 
         options_layer {
             bindings = <
-                &bootloader &kp F7      &kp F8      &kp F9      &K_SLEEP     &kp PSCRN   &none       &none       &none       &bt BT_CLR
+                &bootloader &kp F7      &kp F8      &kp F9      &kp K_SLEEP &kp PSCRN   &none       &none       &none       &bt BT_CLR
                 &kp CAPS    &kp F4      &kp F5      &kp F6      &kp F11     &trans      &bt BT_0    &bt BT_1    &bt BT_2    &bt BT_3
                 &none       &kp F1      &kp F2      &kp F3      &kp F10     &kp PAUSE   &none       &none       &none       &none
                                         &none       &none       &none       &none       &none       &none
